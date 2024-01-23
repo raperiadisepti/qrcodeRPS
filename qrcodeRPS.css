@@ -1,0 +1,28 @@
+#container {
+    text-align: center;
+    max-width: 400px; /* Atur sesuai keinginan Anda */
+    margin: 0 auto;
+}
+
+#qrcode {
+    margin-top: 20px;
+}
+
+#buttons {
+    margin-top: 20px;
+}
+
+#downloadBtn,
+#resetBtn {
+    display: inline-block; /* Agar tombol berada dalam satu baris */
+    margin-right: 5px; /* Atur margin antara tombol */
+}
+
+#qrcode-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#qrcode-list li {
+    margin-bottom: 10px;
+}
